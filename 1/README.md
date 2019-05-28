@@ -1,4 +1,5 @@
-# 20141440 Compiler Project 1
+# Compiler Project 1
+20141440 SeungWon Lee
 
 ## Main Idea of Your Solution
 I stored the tokens by character pointer type and print them by printf("%s")
