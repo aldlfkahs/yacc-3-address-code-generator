@@ -64,4 +64,3 @@ When lookup function is called, it starts to search same ID in symbol table arra
 When lookup_length function is called, it helps to find computed[][] array according to caller's ID, and returns the specific computed size which caller wants at that time.
 
 ## anything else...
-My code uses one more unnecessary registr allocation compared to given optimized output, but it works correctly.
