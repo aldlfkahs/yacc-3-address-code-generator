@@ -9,6 +9,7 @@ I stored it to $n varaibles by character pointer using strdup() which returns th
 ## Code Description
 In Assignment.y file, for example,
 
+```
 %left '+' '-'
 %left '(multiply)' '/'
 %right 'UMINUS'
@@ -20,7 +21,7 @@ E : E '+' E { printf("t%d = %s + %s\n", n, $1, $3); sprintf(tmp, "t%d", n++); $$
   | DIGIT { $$=yylval.str; }
   | '-' E %prec UMINUS {...}
   ....
-
+```
 ## Detailed Algorithm
 Detailed algorithm is shown above as code. 
 I stored DIGIT and ID value in yylval.str.

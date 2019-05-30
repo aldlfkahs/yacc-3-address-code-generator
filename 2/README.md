@@ -8,7 +8,7 @@ When array is declared, it stores its length size information in length array an
 Later, using lookup(..) and lookup_length functions, it could finds its own information such as type, size and computed_size.
 
 ## Code Description
-'''c
+```c
 void insert(char *id, char type){
    symbol[flag][0] = *id;
    symbol[flag][1] = type;
@@ -55,7 +55,7 @@ void insert(char *id, char type){
      computed[flag][i] = result;
    }
  }
-'''
+```
 
 ## Detailed Algorithm
 When insert function is called, it stored two information according to parameters; ID and it's type.
