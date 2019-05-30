@@ -1,0 +1,5 @@
+int a[5];
+int b[10];
+float c[15];
+double d[20];
+d[l] = (a[i]/i + b[j]/j + c[k]/k) / l;
